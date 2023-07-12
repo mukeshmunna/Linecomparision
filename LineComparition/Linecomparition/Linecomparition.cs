@@ -11,10 +11,11 @@ namespace Linecomparition
             this.x2 = x2;
             this.y2 = y2;
         }
-        public void CalculateLenth()
+        public double CalculateLenth()
         {
-            double length = Math.Sqrt(Math.Pow((x2-x1), 2) + Math.Pow((y2-y1), 2));
-            Console.WriteLine("Lenth of a line" + length);
+            double length = Math.Sqrt(Math.Pow((x2 - x1), 2) + Math.Pow((y2 - y1), 2));
+            return length;
         }
     }
+            
 }
